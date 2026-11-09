@@ -1,0 +1,8 @@
+# Core pipeline (parser, scoring, validation, CLI) needs ONLY the Python standard library.
+# UI:
+streamlit>=1.40.0
+pandas>=2.0.0
+# LLM mode (Gemini via the official Google GenAI SDK):
+google-genai>=1.0.0
+# Optional: only to rebuild the 2-page PDF with submission/build_solution_pdf.py (kept private)
+reportlab>=4.0.0

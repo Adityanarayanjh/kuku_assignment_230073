@@ -1,0 +1,11 @@
+# --- confidential Kuku content and anything derived from it ---
+data/
+outputs/
+submission/
+cache/
+*.zip
+# --- secrets / noise ---
+.env
+__pycache__/
+*.pyc
+.venv/
